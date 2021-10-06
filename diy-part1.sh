@@ -9,8 +9,6 @@
 # File name: diy-part1.sh
 # Description: OpenWrt DIY script part 1 (Before Update feeds)
 #
-git clone https://github.com/ysc3839/openwrt-minieap.git -b gzhu package/minieap
-git clone https://github.com/ysc3839/luci-proto-minieap.git package/luci-proto-minieap
 
 # Uncomment a feed source
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
